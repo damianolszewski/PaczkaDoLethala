@@ -31,7 +31,7 @@ if not exist ".git" (
     git fetch
 
     echo Checking out files from the repository...
-    git checkout -t origin/master
+    git checkout -t origin/main
 
     echo Repository cloned into existing directory.
 ) else (
