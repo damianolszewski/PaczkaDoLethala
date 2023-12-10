@@ -39,4 +39,7 @@ if not exist ".git" (
     git pull origin main
 )
 
+echo Press any key to continue...
+pause 
+
 endlocal
