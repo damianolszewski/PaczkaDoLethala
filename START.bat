@@ -2,9 +2,9 @@
 setlocal
 
 :: Define the game executable and repository URL
-set "gameExecutable=Lethal Company.exe"  :: Replace with your game's executable name
-set "repositoryURL=https://github.com/damianolszewski/PaczkaDoLethala.git"  :: Replace with your repository URL
-set "gameDirectory=%CD%"  :: Assumes the script is in the game directory
+set "gameExecutable=Lethal Company.exe"
+set "repositoryURL=https://github.com/damianolszewski/PaczkaDoLethala.git"
+set "gameDirectory=%CD%"
 set "gitExecutable=git"
 
 :: Check if Git is installed by checking the version
@@ -31,12 +31,12 @@ if not exist ".git" (
     git fetch
 
     echo Checking out files from the repository...
-    git checkout origin/master -- .
+    git checkout -t origin/master
 
     echo Repository cloned into existing directory.
 ) else (
     echo Repository already cloned. Pulling updates...
-    git pull
+    git pull origin master
 )
 
 endlocal
