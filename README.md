@@ -11,3 +11,4 @@
 7. Po wszystkim możesz usunąć START_INIT.bat (i od tego momentu używać START.bat gdy chcesz zakutalizować paczkę)
 8. ???
 9. Profit.
+10. Zapierdol daba białasie 😎😎 Z essą i z fartem
