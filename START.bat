@@ -2,7 +2,7 @@
 setlocal
 
 :: Define the game executable and repository URL
-set "gameExecutable=LethalCompany.exe"  :: Replace with your game's executable name
+set "gameExecutable=Lethal Company.exe"  :: Replace with your game's executable name
 set "repositoryURL=https://github.com/damianolszewski/PaczkaDoLethala.git"  :: Replace with your repository URL
 set "gameDirectory=%CD%"  :: Assumes the script is in the game directory
 set "gitExecutable=git"

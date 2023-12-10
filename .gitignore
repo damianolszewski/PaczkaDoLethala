@@ -3,6 +3,7 @@
 !.gitignore
 !doorstop_config.ini
 !winhttp.dll
+!discord_game_sdk.dll
 !START.bat
 !/BepInEx/**/*
 !/BepInEx
