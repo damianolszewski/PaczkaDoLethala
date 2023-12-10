@@ -8,3 +8,4 @@
 4. Włącz START.bat
 5. ???
 6. Profit.
+7. Zapierdol daba białasie 😎😎 Z essą i z fartem
