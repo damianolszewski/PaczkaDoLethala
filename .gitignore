@@ -5,3 +5,5 @@
 !winhttp.dll
 !START.bat
 !BepInEx/
+!/BepInEx/
+!BepInEx
