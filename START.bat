@@ -21,17 +21,22 @@ if %errorlevel% neq 0 (
 :: Change to the game directory
 cd /d "%gameDirectory%"
 
-:: Check if repository is cloned
+:: Initialize the directory as a Git repository if not already a repository
 if not exist ".git" (
-    echo Cloning repository...
-    git clone "%repositoryURL%" .
+    echo Initializing repository in the current directory...
+    git init
+    git remote add origin "%repositoryURL%"
+    
+    echo Fetching repository data...
+    git fetch
+
+    echo Checking out files from the repository...
+    git checkout origin/master -- .
+
+    echo Repository cloned into existing directory.
 ) else (
     echo Repository already cloned. Pulling updates...
     git pull
 )
-
-:: Start the game
-echo Starting the game...
-start "" "%gameExecutable%"
 
 endlocal
