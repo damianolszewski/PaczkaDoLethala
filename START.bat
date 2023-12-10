@@ -36,7 +36,7 @@ if not exist ".git" (
     echo Repository cloned into existing directory.
 ) else (
     echo Repository already cloned. Pulling updates...
-    git pull origin master
+    git pull origin main
 )
 
 endlocal
