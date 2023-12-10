@@ -5,4 +5,4 @@
 3. Put it in the Lethal Company game folder
 4. Run START.bat
 5. ???
-6. Profit
+6. Profit.
