@@ -8,6 +8,7 @@
 !/BepInEx/**/*
 !/BepInEx
 !README.md
+!/*.png
 
 /BepInEx/cache/*
 /BepInEx/LogOutput.log
