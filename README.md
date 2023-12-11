@@ -11,7 +11,7 @@
 5. Wrzuć **START_INIT.bat** do folderu Lethal Company
 6. Włącz **START_INIT.bat**
    - Folder **BepInEx**, plik **doorstop_config.ini** i plik **winhttp.dll** powinny zostać pobrane
-7. Po wszystkim możesz usunąć **START_INIT.bat** (i od tego momentu używać **START.bat** gdy chcesz zakutalizować paczkę)
+7. Po wszystkim możesz usunąć **START_INIT.bat**
 8. Kliknij prawym przyciskiem na Lethal Company na Steam i wejdź w właściwości
 9. Dodaj `START.bat %command%` do opcji uruchamiania
 
