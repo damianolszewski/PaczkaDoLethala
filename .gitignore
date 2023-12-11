@@ -11,4 +11,8 @@
 !/*.png
 
 /BepInEx/cache/*
+/BepInEx/plugins/sinai-dev-UnityExplorer/*
 /BepInEx/LogOutput.log
+BepInEx/plugins/UniverseLib.Mono.dll
+BepInEx/plugins/UnityExplorer.BIE5.Mono.dll
+BepInEx/config/com.sinai.unityexplorer.cfg
