@@ -9,5 +9,5 @@
 !/BepInEx
 !README.md
 
-/BepInEx/cache/
+/BepInEx/cache/*
 /BepInEx/LogOutput.log
