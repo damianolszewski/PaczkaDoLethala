@@ -56,6 +56,7 @@ if not exist ".git" (
 ) else (
     echo Repozytorium bylo juz klonowane. Pobieram aktualizacje...
 	echo -----------------------------------------------
+    git stash
     git pull origin main
 	echo -----------------------------------------------
 )
